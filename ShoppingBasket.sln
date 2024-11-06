@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingBasket", "ShoppingBasket\ShoppingBasket.csproj", "{0794EB45-255E-4FEA-B9A1-D4391891210D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingBasket.Tests", "ShoppingBasket.Tests\ShoppingBasket.Tests.csproj", "{420C347E-08ED-463C-90C2-49A2B3A4D40E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A9BEA2AA-D231-4989-9628-447B25278396}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		LICENSE.txt = LICENSE.txt
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0794EB45-255E-4FEA-B9A1-D4391891210D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0794EB45-255E-4FEA-B9A1-D4391891210D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0794EB45-255E-4FEA-B9A1-D4391891210D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0794EB45-255E-4FEA-B9A1-D4391891210D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{420C347E-08ED-463C-90C2-49A2B3A4D40E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{420C347E-08ED-463C-90C2-49A2B3A4D40E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{420C347E-08ED-463C-90C2-49A2B3A4D40E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{420C347E-08ED-463C-90C2-49A2B3A4D40E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {74658378-32AF-4BC0-A36B-BEC5628EBA0A}
+	EndGlobalSection
+EndGlobal
