@@ -112,6 +112,21 @@ public class BasketTests
     }
 
     [Fact]
+    public void Scan_WithBuy1Get1Free2_ReturnsPriceSum()
+    {
+        List<Product> products = [new Product { Id = "A0001", Price = 12.99m }, new Product { Id = "A0002", Price = 3.99m, Buy1Get1Free = true }];
+        Warehouse warehouse = new(products);
+        Basket basket = new(warehouse);
+
+        basket.Scan("A0002");
+        basket.Scan("A0001");
+        basket.Scan("A0002");
+        basket.Scan("A0002");
+
+        Assert.Equal(20.97m, basket.Total);
+    }
+
+    [Fact]
     public void Scan_WithBuy1Get1FreeAndDiscount_ReturnsPriceSum()
     {
         List<Product> products = [new Product { Id = "A0001", Price = 12.99m, Discount = 0.1m }, new Product { Id = "A0002", Price = 3.99m, Buy1Get1Free = true }];
